@@ -1,0 +1,22 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "Projeto para desenvolimento de perguntas anônimas de usuários direcionadas ao dono da página, Projeto NLW Discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon main",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Gustavo Vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
